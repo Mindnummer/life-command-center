@@ -1,0 +1,27 @@
+# ── Dependencies & build output ──────────────────────────────
+node_modules/
+dist/
+dist-ssr/
+
+# ── Environment & secrets (NEVER commit these) ───────────────
+.env
+.env.*
+*.pem
+*.key
+
+# ── PRIVACY GUARD: personal data must never enter the repo ───
+# Exported mind-map backups
+*backup*.json
+*Backup*.json
+lcc-*.json
+exports/
+backups/
+private/
+
+# ── Editor / OS noise ─────────────────────────────────────────
+.vscode/*
+!.vscode/extensions.json
+.idea/
+.DS_Store
+*.log
+npm-debug.log*
